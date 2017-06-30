@@ -1,0 +1,134 @@
+//---------- HOME SECTION ----->>>>>
+
+#home
+  +cush(0, 0)
+  color: $clr-grey-dark
+  .info-wrap
+    +box-fluid
+    display: flex
+    flex-flow: column
+    align-items: center
+    @media (min-width: 769px)
+      flex-flow: row wrap
+      justify-content: space-around
+    h3
+      +box-config(90%, auto, 10px 0, 10px)
+      text-align: center
+      font-weight: 700
+      background: rgba(244, 244, 244, .95)
+      +b-rad-10
+      @media (min-width: 769px)
+        font-size: 4.5em
+    img
+      //width: 40%
+      +pic-space
+      @media (min-width: 992px)
+        width: 40%
+        margin-top: 15vh
+        margin-bottom: 15vh
+        justify-content: flex-start
+    p
+      width: 90%
+      +text-space
+      font-size: 1.5em
+      line-height: 30px
+      text-indent: 20px
+      letter-spacing: 1.75px
+      color: $clr-white
+      background: $clr-brown
+      +b-rad-20
+      border: thin solid rgb(185, 139, 63)
+      +box-shade-white-half
+      @media (min-width: 992px)
+        width: 50%
+        height: auto
+        margin-top: 30px
+        padding: 30px 20px
+        font-size: 2.5em
+        text-indent: 20px
+        line-height: 1.5em
+
+.meal
+  +box-config(70%, auto, 20px auto, 4px)
+  box-shadow: 3px 3px 2px 1px #666
+  @media (min-width: 769px)
+    width: 30%
+    margin: 40px (10% / 8)
+    display: inline-flex
+
+
+.contact-section
+  margin-top: 40px
+  padding: 0
+  background: rgba(230, 230, 230, .9)
+  @media (min-width: 769px)
+    width: 90%
+    height: auto
+    margin: 10vh 5%
+    +b-rad-30
+  p
+    margin-top: 10px
+    font-weight: 600
+    font-size: 1em
+    text-align: center
+    @media (min-width: 769px)
+      font-size: 1.5em
+
+.contact-link
+  line-height: 30px
+  width: 300px
+  margin: 0
+  padding: 0
+  li
+    margin: 0
+    padding: 0
+    a
+      width: 100%
+      margin: 0
+      padding: 0
+      font-size: 2em
+      text-decoration: none
+form
+  width: 100%
+  height: auto
+  margin: 0
+  padding: 0
+  font-weight: 600
+  box-sizing: border-box
+  @media (min-width: 769px)
+    width: 100%
+    margin: 0 auto
+    padding: 20px
+    background: #fff
+    +b-rad-30
+
+.title
+  +box-fluid
+  text-align: center
+  h2
+    width: 100%
+    margin: 0
+    font-size: 2em
+    font-weight: 700
+    @media (min-width: 992px)
+      font-size: 3em
+
+.text
+  text-align: center
+
+table
+  width: 100%
+  @media (min-width: 769px)
+    font-size: 1.5em
+
+td
+  padding: 5px 10px
+
+input
+  width: 100%
+  line-height: 3em
+  margin: 20px 20px
+  color: #333
+  //background: rgba(#999999, 0.76)
+  font-weight: 600
+  letter-spacing: 1.25px

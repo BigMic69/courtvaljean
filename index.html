@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>A Taste of Court ValJean</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="css/master.css">
+
+</head>
+
+<body>
+
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <div id="page-wrap">
+
+    <ul id="menu-top" class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+      <li><a data-toggle="tab" href="#menu1">Healthy</a></li>
+      <li><a data-toggle="tab" href="#menu2">Sweets</a></li>
+      <li><a data-toggle="tab" href="#menu3">Contact</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active kitchen-1">
+        <div class="info-wrap">
+          <h3>HOME</h3>
+          <img src="img/self-2.png" alt="" class="img-responsive meal">
+          <p>His culinary skill-set was honed from his grandmother's teaching. Many an hour has passed by as he developed his
+            craft. Some even say that he has the best vittles this side of ANY Southern Border.</p>
+        </div>
+        <img src="img/meal-1.png" alt="" class="img-responsive meal">
+        <img src="img/meal-2.png" alt="" class="img-responsive meal">
+        <img src="img/meal-3.png" alt="" class="img-responsive meal">
+        <div class="contact-section">
+          <ul class="contact-link">
+            <li>
+              <a href=http://mccgraphics.info/valjeanform2.html><span class="btn"> Contact Me</span></a>
+            </li>
+          </ul>
+          <p>Use 'Contact Me' link if the form below doesn't work.</p>
+
+          <form name="frm" action="/cgi-bin/FormMail.valjeanform1.pl" method="post" onsubmit="return validate(frm)">
+            <table width="" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="title">
+                  <h2>Comment Section</h2>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <hr size="1" noshade>
+                </td>
+              </tr>
+              <tr>
+                <td class="text">Thank you for visiting and your support.
+                </td>
+              </tr>
+              <tr>
+                <td class="text">
+                  <table width="" border="0" cellspacing="" cellpadding="0">
+                    <tr>
+                      <td class="text">
+                        <div align="left">Name</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="5"><input type="text" name="Name"></td>
+                    </tr>
+                    <tr>
+                      <td class="text">
+                        <div align="left">Email</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="5"><input type="text" name="formmail_mail_email"></td>
+                    </tr>
+                    <tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                        <td valign="top" class="text">
+                          <div align="left">Comment</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="5"><textarea name="Comment" cols="30" rows="10"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td width="35%">&nbsp;</td>
+                        <td width="13%">&nbsp;</td>
+                        <td width="35%">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td colspan="3">
+                          <input type="submit" name="Submit" value="Submit">
+                          <input type="reset" name="Submit" value="Clear"></td>
+                      </tr>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+
+      <div id="menu1" class="tab-pane fade kitchen-3">
+        <div class="info-wrap">
+          <h3>KEEPING IT LITE</h3>
+          <p>Everyone understands the effort it takes to eat healthy everyday. So why not start with once a week.</p>
+        </div>
+        <img src="img/health-1.png" alt="" class="img-responsive meal">
+        <img src="img/health-2.png" alt="" class="img-responsive meal">
+        <img src="img/health-4.png" alt="" class="img-responsive meal">
+      </div>
+
+      <div id="menu2" class="tab-pane fade kitchen-4">
+        <div class="info-wrap">
+          <h3>AN URGE FOR SWEETS</h3>
+          <p>Does one even need to explain???</p>
+        </div>
+        <img src="img/sweets-1.png" alt="" class="img-responsive meal">
+        <img src="img/sweets-2.png" alt="" class="img-responsive meal">
+        <div class="text-wrap">
+          <p>Cookies, cakes, and pies<br> (OH, MY)</p>
+        </div>
+        <img src="img/sweets-3.png" alt="" class="img-responsive meal hoverable">
+        <img src="img/sweets-4.png" alt="" class="img-responsive meal">
+        <img src="img/sweets-5.png" alt="" class="img-responsive meal">
+        <div class="text-wrap">
+          <p>Mouth watering<br> (ain't it)!!!</p>
+          <div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=1903950552963778&amp;id=264359326922917"
+            data-width="500" data-show-text="true">
+            <blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1903950552963778&amp;id=264359326922917" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/">A Taste Of CourtValjean</a>              on&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=1903950552963778&amp;id=264359326922917">Thursday, June 1, 2017</a></blockquote>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="menu3" class="tab-pane fade kitchen-5">
+        <div class="info-wrap">
+          <h3>A Taste of Court ValJean</h3>
+          <p>I'm always available!</p>
+        </div>
+        <ul id="location">
+          <li>DELIVERY AREA</li>
+          <li>Evansville, IN</li>
+          <li><span class="glyphicon glyphicon-phone"></span> 408-568-9611</li>
+          <li><span class="glyphicon glyphicon-envelope"></span> bakedogg408@gmail.com</li>
+        </ul>
+        <img src="img/self-3.png" alt="" class="img-responsive meal">
+        <div class="text-wrap container">
+          <h5>FACEBOOK SHOWCASE</h5>
+          <div class="row fb-showcase">
+
+            <div class="fb-post col s10 m4" data-href="https://www.facebook.com/264359326922917/photos/a.1101566423202199.1073741827.264359326922917/1929932530365580/?type=3" data-width="320" data-show-text="true"><blockquote cite="https://www.facebook.com/264359326922917/photos/a.1101566423202199.1073741827.264359326922917/1929932530365580/?type=3" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/">A Taste Of CourtValjean</a> on&nbsp;<a href="https://www.facebook.com/264359326922917/photos/a.1101566423202199.1073741827.264359326922917/1929932530365580/?type=3">Monday, June 19, 2017</a></blockquote></div>
+
+            <div class="fb-post col s10 m4" data-href="https://www.facebook.com/permalink.php?story_fbid=1903950446297122&amp;id=264359326922917" data-width="320" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1903950446297122&amp;id=264359326922917" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/">A Taste Of CourtValjean</a> on&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=1903950446297122&amp;id=264359326922917">Thursday, June 1, 2017</a></blockquote></div>
+
+            <div class="fb-post col s10 m4" data-href="https://www.facebook.com/permalink.php?story_fbid=1903950022963831&amp;id=264359326922917" data-width="320" data-show-text="true"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1903950022963831&amp;id=264359326922917" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/">A Taste Of CourtValjean</a> on&nbsp;<a href="https://www.facebook.com/permalink.php?story_fbid=1903950022963831&amp;id=264359326922917">Thursday, June 1, 2017</a></blockquote></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="logo-wrap">
+      <a href="https://0006iux.wcomhost.com/index.html">
+        <video class="logo-video" autoplay loop poster="img/mcc-logo-2.png">
+          <source src="video/mcc-logo-4.mp4" type="video/mp4">
+        </video>
+      </a>
+    </div>
+
+    <div class="container">
+      <ul id="menu-bottom" class="collapsible row" data-collapsible="accordion">
+        <li class="col s12">
+          <div class="collapsible-header blue-grey darken-4"><i class="material-icons"></i>FACEBOOK</div>
+          <div class="collapsible-body">
+            <div class="container">
+              <div class="fb-page" data-href="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/" data-tabs="timeline" data-width="320" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/A-Taste-Of-CourtValjean-264359326922917/">A Taste Of CourtValjean</a></blockquote></div>
+            </div>
+          </div>
+        </li>
+        <li class="col s12">
+          <div class="collapsible-header blue-grey darken-4"><i class="material-icons"></i>LINKEDIN</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li class="col s12">
+          <div class="collapsible-header blue-grey darken-4"><i class="material-icons"></i>TWITTER</div>
+          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script src="js/bakey-script.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>

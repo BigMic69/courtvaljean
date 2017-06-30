@@ -1,0 +1,115 @@
+//---------- STATEMENT ----->>>>>
+
+$clr-blue: rgb(3, 43, 78)
+$clr-brown: rgb(33, 25, 19)
+$clr-burgundy: #310C16
+$clr-orange: rgb(243, 87, 2)
+$clr-silver: rgb(221, 222, 224)
+$clr-white: rgb(243, 243, 243)
+$clr-white-half: rgba(234, 234, 234, .5)
+$clr-grey-dark: rgba(44, 44, 44, 1)
+$clr-grey-half: rgba(55, 55, 55, .5)
+
+//---------- COLOR MIXINS ----->>>>>
+@mixin clr-orange-alpha($alpha)
+  background: rgba(243, 87, 2, $alpha)
+@mixin clr-white-alpha($alpha)
+  background: rgba(243, 243, 243, $alpha)
+@mixin clr-grey-drk-alpha($alpha)
+  background: rgba(55, 55, 55, $alpha)
+@mixin clr-silver-alpha($alpha)
+  background: rgba(221, 222, 224, $alpha)
+
+//---------- BORDER MIXINS ----->>>>>
+@mixin border-blue
+  border: thin solid $clr-blue
+@mixin border-grey
+  border: thin solid $clr-grey-dark
+@mixin border-orange
+  border: thin solid $clr-orange
+@mixin border-white
+  border: thin solid $clr-white
+
+
+//---------- BOX SHADOW MIXINS ----->>>>>
+@mixin box-shade-white-half
+  box-shadow: 3px 2px 3px 1px $clr-white
+@mixin text-shade-grey
+  text-shadow: 1px 2px #333
+@mixin text-shade-orange
+  text-shadow: 1px .75px 1px $clr-orange
+
+
+//---------- MARGIN/PADDING MIXINS ----->>>>>
+@mixin no-cush
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+@mixin cush($margin, $padding)
+  margin: $margin
+  padding: $padding
+@mixin text-space
+  +cush(10px 0 30px, 10px)
+@mixin pic-space
+  +cush(10px 0 20px, 4px)
+
+//---------- BACKGROUND IMAGE MIXINS ----->>>>>
+@mixin bg-cover
+  background:
+    size: cover
+    position: center
+    attachment: fixed
+    repeat: no-repeat
+
+
+//---------- TRANSITION MIXINS ----->>>>>
+@mixin trans-0
+  transition: .3s ease-in-out .3s
+@mixin trans-1
+  transition: 1s ease-in-out .5s
+@mixin trans-2
+  transition: 2s ease-in-out .9s
+@mixin trans-3
+  transition: 3s ease-in-out 1s
+@mixin trans-4
+  transition: 4s ease-in-out 1s
+
+
+//---------- BORDER RADIUS MIXINS ----->>>>>
+@mixin b-rad-10
+  border-radius: 10px
+@mixin b-rad-20
+  border-radius: 20px
+@mixin b-rad-top-20
+  border-radius: 20px 20px 0 0
+@mixin b-rad-bottom-20
+  border-radius: 0 0 20px 20px
+@mixin b-rad-30
+  border-radius: 30px
+
+
+//---------- CONTAINER MIXINS ----->>>>>
+@mixin box-fluid
+  width: 100%
+  height: auto
+  margin: 0
+  padding: 0
+@mixin box-config($width, $height, $margin, $padding)
+  width: $width
+  height: $height
+  margin: $margin
+  padding: $padding
+  box-sizing: border-box
+
+
+//---------- FONT SIZE MIXINS ----->>>>>
+@mixin font-media-default
+  letter-spacing: 1.25px
+  @media screen and (min-width: 300px) and (max-width: 767px) and (orientation: portrait)
+    font-size: 1.75rem
+  @media screen and (min-width: 480px) and (max-width: 1024px) and (orientation: landscape)
+    font-size: 2.50rem
+  @media screen and (min-width: 768px) and (orientation: portrait)
+    font-size: 2.75rem
+  @media screen and (min-width: 1025px) and (orientation: landscape)
+    font-size: 2.75rem

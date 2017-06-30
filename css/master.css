@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin|Droid+Sans|Droid+Serif|El+Messiri|Lora|Noto+Serif|Tangerine");
+/* line 1, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+html {
+  margin: 0;
+  padding: 0 0 30vh;
+  overflow-x: hidden;
+  font-size: 18px;
+  letter-spacing: 1.5px; }
+
+/* line 7, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #444;
+  color: #fff;
+  font-family: Lora; }
+
+/* line 15, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+#menu-top {
+  margin: 0;
+  padding: 0; }
+  /* line 17, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+  #menu-top li {
+    width: 42%;
+    margin: 5px 2px;
+    list-style: none; }
+    @media (min-width: 769px) {
+      /* line 17, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+      #menu-top li {
+        width: 23%;
+        padding: 20px 0; } }
+    /* line 24, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+    #menu-top li a {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 1.5em;
+      line-height: 8vh;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      text-shadow: 1px 1px 1px #f4f4f4;
+      border-radius: 10px; }
+      /* line 34, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+      #menu-top li a:hover {
+        color: #333; }
+      /* line 36, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+      #menu-top li a:focus {
+        color: #333; }
+      @media (min-width: 769px) {
+        /* line 24, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+        #menu-top li a {
+          width: 100%;
+          font-size: 2.5em;
+          text-align: center;
+          line-height: 15vh; } }
+
+/* line 44, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+h3 {
+  font-size: 1.75em !important; }
+  @media (min-width: 550px) and (max-width: 768px) {
+    /* line 44, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+    h3 {
+      font-size: 2.5em !important; } }
+  @media (min-width: 769px) {
+    /* line 44, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+    h3 {
+      font-size: 3em !important; } }
+
+/* line 50, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+p {
+  font-size: 1.25em !important; }
+  @media (min-width: 550px) and (max-width: 768px) {
+    /* line 50, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+    p {
+      font-size: 1.75em !important; } }
+  @media (min-width: 769px) {
+    /* line 50, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+    p {
+      font-size: 2.25em !important; } }
+
+/* line 58, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.kitchen-1 {
+  background-image: url(../img/kitchen-1.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/* line 61, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.kitchen-2 {
+  background-image: url(../img/kitchen-2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/* line 64, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.kitchen-3 {
+  background-image: url(../img/kitchen-3.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/* line 67, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.kitchen-4 {
+  background-image: url(../img/kitchen-4.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/* line 70, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.kitchen-5 {
+  background-image: url(../img/kitchen-5.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/* line 74, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.img-responsive {
+  border-radius: 20px;
+  border: thin solid #f3f3f3;
+  background: rgba(243, 243, 243, 0.7); }
+
+/* line 79, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.tab-content {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #444;
+  color: #fff; }
+
+/* line 84, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+#logo-wrap {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  z-index: 80; }
+  @media (min-width: 769px) {
+    /* line 84, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+    #logo-wrap {
+      right: 40px; } }
+  /* line 94, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+  #logo-wrap a {
+    margin: 0;
+    text-decoration: none;
+    color: #f35702; }
+  /* line 98, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+  #logo-wrap .logo-video {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-right: thin solid #f35702;
+    border-left: thin solid #2c2c2c;
+    border-top: thin solid #2c2c2c;
+    box-shadow: 2px 2px 2px #f35702;
+    transform: translateX(-25%); }
+    @media (min-width: 769px) {
+      /* line 98, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+      #logo-wrap .logo-video {
+        width: 70px;
+        height: 65px; } }
+
+/* line 112, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+#menu-bottom li {
+  margin: 0;
+  padding: 0; }
+
+/* line 116, C:/wamp64/www/courtvaljean/sass/parts/_base.sass */
+.textChange {
+  color: #dddee0;
+  background: #211913; }
+
+/* line 3, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+#home {
+  margin: 0;
+  padding: 0;
+  color: #2c2c2c; }
+  /* line 6, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+  #home .info-wrap {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center; }
+    @media (min-width: 769px) {
+      /* line 6, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+      #home .info-wrap {
+        flex-flow: row wrap;
+        justify-content: space-around; } }
+    /* line 14, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    #home .info-wrap h3 {
+      width: 90%;
+      height: auto;
+      margin: 10px 0;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: 700;
+      background: rgba(244, 244, 244, 0.95);
+      border-radius: 10px; }
+      @media (min-width: 769px) {
+        /* line 14, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+        #home .info-wrap h3 {
+          font-size: 4.5em; } }
+    /* line 22, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    #home .info-wrap img {
+      margin: 10px 0 20px;
+      padding: 4px; }
+      @media (min-width: 992px) {
+        /* line 22, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+        #home .info-wrap img {
+          width: 40%;
+          margin-top: 15vh;
+          margin-bottom: 15vh;
+          justify-content: flex-start; } }
+    /* line 30, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    #home .info-wrap p {
+      width: 90%;
+      margin: 10px 0 30px;
+      padding: 10px;
+      font-size: 1.5em;
+      line-height: 30px;
+      text-indent: 20px;
+      letter-spacing: 1.75px;
+      color: #f3f3f3;
+      background: #211913;
+      border-radius: 20px;
+      border: thin solid #b98b3f;
+      box-shadow: 3px 2px 3px 1px #f3f3f3; }
+      @media (min-width: 992px) {
+        /* line 30, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+        #home .info-wrap p {
+          width: 50%;
+          height: auto;
+          margin-top: 30px;
+          padding: 30px 20px;
+          font-size: 2.5em;
+          text-indent: 20px;
+          line-height: 1.5em; } }
+
+/* line 51, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+.meal {
+  width: 70%;
+  height: auto;
+  margin: 20px auto;
+  padding: 4px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 2px 1px #666; }
+  @media (min-width: 769px) {
+    /* line 51, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    .meal {
+      width: 30%;
+      margin: 40px 1.25%;
+      display: inline-flex; } }
+
+/* line 60, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+.contact-section {
+  margin-top: 40px;
+  padding: 0;
+  background: rgba(230, 230, 230, 0.9); }
+  @media (min-width: 769px) {
+    /* line 60, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    .contact-section {
+      width: 90%;
+      height: auto;
+      margin: 10vh 5%;
+      border-radius: 30px; } }
+  /* line 69, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+  .contact-section p {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center; }
+    @media (min-width: 769px) {
+      /* line 69, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+      .contact-section p {
+        font-size: 1.5em; } }
+
+/* line 77, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+.contact-link {
+  line-height: 30px;
+  width: 300px;
+  margin: 0;
+  padding: 0; }
+  /* line 82, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+  .contact-link li {
+    margin: 0;
+    padding: 0; }
+    /* line 85, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    .contact-link li a {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 2em;
+      text-decoration: none; }
+
+/* line 91, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+form {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  box-sizing: border-box; }
+  @media (min-width: 769px) {
+    /* line 91, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    form {
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 30px; } }
+
+/* line 105, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+.title {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  /* line 108, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+  .title h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700; }
+    @media (min-width: 992px) {
+      /* line 108, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+      .title h2 {
+        font-size: 3em; } }
+
+/* line 116, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+.text {
+  text-align: center; }
+
+/* line 119, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+table {
+  width: 100%; }
+  @media (min-width: 769px) {
+    /* line 119, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+    table {
+      font-size: 1.5em; } }
+
+/* line 124, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+td {
+  padding: 5px 10px; }
+
+/* line 127, C:/wamp64/www/courtvaljean/sass/parts/_home.sass */
+input {
+  width: 100%;
+  line-height: 3em;
+  margin: 20px 20px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1.25px; }
+
+/* line 1, C:/wamp64/www/courtvaljean/sass/parts/_healthy.sass */
+#menu1 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  padding: 20px; }
+  /* line 4, C:/wamp64/www/courtvaljean/sass/parts/_healthy.sass */
+  #menu1 .info-wrap {
+    padding: 5px 20px 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: #2c2c2c; }
+    @media (min-width: 769px) {
+      /* line 4, C:/wamp64/www/courtvaljean/sass/parts/_healthy.sass */
+      #menu1 .info-wrap {
+        width: 50%;
+        margin-bottom: 15vh; } }
+    /* line 12, C:/wamp64/www/courtvaljean/sass/parts/_healthy.sass */
+    #menu1 .info-wrap h3 {
+      padding: 5px;
+      border-bottom: thin solid #fff; }
+      @media (min-width: 769px) {
+        /* line 12, C:/wamp64/www/courtvaljean/sass/parts/_healthy.sass */
+        #menu1 .info-wrap h3 {
+          padding: 10px;
+          font-size: 4em;
+          border-bottom: medium solid #fff; } }
+    @media (min-width: 769px) {
+      /* line 19, C:/wamp64/www/courtvaljean/sass/parts/_healthy.sass */
+      #menu1 .info-wrap p {
+        padding: 5px;
+        font-size: 2em; } }
+
+/* line 1, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+#menu2 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  padding: 20px; }
+  /* line 4, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+  #menu2 .info-wrap {
+    padding: 5px 20px 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: #2c2c2c; }
+    @media (min-width: 769px) {
+      /* line 4, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+      #menu2 .info-wrap {
+        width: 50%;
+        margin-bottom: 15vh; } }
+    /* line 12, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+    #menu2 .info-wrap h3 {
+      padding: 5px;
+      border-bottom: thin solid #fff; }
+      @media (min-width: 769px) {
+        /* line 12, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+        #menu2 .info-wrap h3 {
+          padding: 10px; } }
+    @media (min-width: 769px) {
+      /* line 18, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+      #menu2 .info-wrap p {
+        padding: 5px; } }
+
+/* line 23, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+.text-wrap {
+  width: 100%;
+  height: auto;
+  font-size: 1.75em;
+  text-align: center;
+  margin: 10px 0 30px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #2c2c2c; }
+  @media (min-width: 769px) {
+    /* line 31, C:/wamp64/www/courtvaljean/sass/parts/_sweets.sass */
+    .text-wrap .fb-post {
+      width: 50%; } }
+
+/* line 1, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+#menu3 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  padding: 5px; }
+  /* line 4, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+  #menu3 .info-wrap {
+    padding: 5px 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    background: #2c2c2c; }
+    @media (min-width: 769px) {
+      /* line 4, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+      #menu3 .info-wrap {
+        width: 50%;
+        margin-bottom: 15vh; } }
+    /* line 12, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+    #menu3 .info-wrap h3 {
+      padding: 5px;
+      font-size: 2em;
+      border-bottom: thin solid #fff; }
+      @media (min-width: 769px) {
+        /* line 12, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+        #menu3 .info-wrap h3 {
+          padding: 10px;
+          font-size: 3.5em;
+          letter-spacing: 1.5px; } }
+    @media (min-width: 769px) {
+      /* line 20, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+      #menu3 .info-wrap p {
+        padding: 5px; } }
+  /* line 24, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+  #menu3 img {
+    width: 60%;
+    margin: 30px auto; }
+    @media (min-width: 769px) {
+      /* line 24, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+      #menu3 img {
+        width: 40%; } }
+
+/* line 30, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+#location {
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #2c2c2c;
+  border-radius: 20px; }
+  @media (min-width: 769px) {
+    /* line 30, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+    #location {
+      float: right; } }
+  /* line 36, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+  #location li {
+    width: 100%;
+    text-align: center;
+    background: #333;
+    letter-spacing: 2px;
+    line-height: 2em; }
+    @media (min-width: 769px) {
+      /* line 36, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+      #location li {
+        padding: 5px;
+        font-size: 2.5em;
+        letter-spacing: 1.5px; } }
+
+/* line 47, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+.text-wrap {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow-y: hidden; }
+
+/* line 53, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+.fb-showcase {
+  vertical-align: center;
+  margin: 4px 0;
+  padding: 0; }
+
+/* line 56, C:/wamp64/www/courtvaljean/sass/parts/_contact.sass */
+.fb-post {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=../css/master.map */
